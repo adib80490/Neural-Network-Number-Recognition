@@ -38,7 +38,7 @@ function setup() {
 	resetBtn = createButton("Reset");
 	resetBtn.mousePressed(resetCanvas);
 	
-	pGuess = createH1("");
+	pGuess = createElement('h2',"");
 	
 	pixelDensity(1);
 	
